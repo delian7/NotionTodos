@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11BA2DB2DB020F100253F98 /* NotionTodos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B11BA2DC2DB020F100253F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11BA2CE2DB020F100253F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11BA2D92DB020F100253F98;
+			remoteInfo = "NotionTodos Watch App";
+		};
+		B11BA2EA2DB020F300253F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11BA2CE2DB020F100253F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11BA2D92DB020F100253F98;
+			remoteInfo = "NotionTodos Watch App";
+		};
+		B11BA2F42DB020F300253F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11BA2CE2DB020F100253F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11BA2D92DB020F100253F98;
+			remoteInfo = "NotionTodos Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B11BA3002DB020F300253F98 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B11BA2DB2DB020F100253F98 /* NotionTodos Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B11BA2D42DB020F100253F98 /* NotionTodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotionTodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotionTodos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11BA2E92DB020F300253F98 /* NotionTodos Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionTodos Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11BA2F32DB020F300253F98 /* NotionTodos Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionTodos Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B11BA2DE2DB020F100253F98 /* NotionTodos Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NotionTodos Watch App";
+			sourceTree = "<group>";
+		};
+		B11BA2EC2DB020F300253F98 /* NotionTodos Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NotionTodos Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B11BA2F62DB020F300253F98 /* NotionTodos Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NotionTodos Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11BA2D72DB020F100253F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2E62DB020F300253F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2F02DB020F300253F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11BA2CD2DB020F100253F98 = {
+			isa = PBXGroup;
+			children = (
+				B11BA2DE2DB020F100253F98 /* NotionTodos Watch App */,
+				B11BA2EC2DB020F300253F98 /* NotionTodos Watch AppTests */,
+				B11BA2F62DB020F300253F98 /* NotionTodos Watch AppUITests */,
+				B11BA2D52DB020F100253F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11BA2D52DB020F100253F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11BA2D42DB020F100253F98 /* NotionTodos.app */,
+				B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */,
+				B11BA2E92DB020F300253F98 /* NotionTodos Watch AppTests.xctest */,
+				B11BA2F32DB020F300253F98 /* NotionTodos Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11BA2D32DB020F100253F98 /* NotionTodos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11BA3012DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos" */;
+			buildPhases = (
+				B11BA2D22DB020F100253F98 /* Resources */,
+				B11BA3002DB020F300253F98 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11BA2DD2DB020F100253F98 /* PBXTargetDependency */,
+			);
+			name = NotionTodos;
+			packageProductDependencies = (
+			);
+			productName = NotionTodos;
+			productReference = B11BA2D42DB020F100253F98 /* NotionTodos.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B11BA2D92DB020F100253F98 /* NotionTodos Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11BA2FD2DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch App" */;
+			buildPhases = (
+				B11BA2D62DB020F100253F98 /* Sources */,
+				B11BA2D72DB020F100253F98 /* Frameworks */,
+				B11BA2D82DB020F100253F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B11BA2DE2DB020F100253F98 /* NotionTodos Watch App */,
+			);
+			name = "NotionTodos Watch App";
+			packageProductDependencies = (
+			);
+			productName = "NotionTodos Watch App";
+			productReference = B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B11BA2E82DB020F300253F98 /* NotionTodos Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11BA3042DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch AppTests" */;
+			buildPhases = (
+				B11BA2E52DB020F300253F98 /* Sources */,
+				B11BA2E62DB020F300253F98 /* Frameworks */,
+				B11BA2E72DB020F300253F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11BA2EB2DB020F300253F98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B11BA2EC2DB020F300253F98 /* NotionTodos Watch AppTests */,
+			);
+			name = "NotionTodos Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "NotionTodos Watch AppTests";
+			productReference = B11BA2E92DB020F300253F98 /* NotionTodos Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B11BA2F22DB020F300253F98 /* NotionTodos Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11BA3072DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch AppUITests" */;
+			buildPhases = (
+				B11BA2EF2DB020F300253F98 /* Sources */,
+				B11BA2F02DB020F300253F98 /* Frameworks */,
+				B11BA2F12DB020F300253F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11BA2F52DB020F300253F98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B11BA2F62DB020F300253F98 /* NotionTodos Watch AppUITests */,
+			);
+			name = "NotionTodos Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "NotionTodos Watch AppUITests";
+			productReference = B11BA2F32DB020F300253F98 /* NotionTodos Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11BA2CE2DB020F100253F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B11BA2D32DB020F100253F98 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B11BA2D92DB020F100253F98 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B11BA2E82DB020F300253F98 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B11BA2D92DB020F100253F98;
+					};
+					B11BA2F22DB020F300253F98 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B11BA2D92DB020F100253F98;
+					};
+				};
+			};
+			buildConfigurationList = B11BA2D12DB020F100253F98 /* Build configuration list for PBXProject "NotionTodos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11BA2CD2DB020F100253F98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B11BA2D52DB020F100253F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11BA2D32DB020F100253F98 /* NotionTodos */,
+				B11BA2D92DB020F100253F98 /* NotionTodos Watch App */,
+				B11BA2E82DB020F300253F98 /* NotionTodos Watch AppTests */,
+				B11BA2F22DB020F300253F98 /* NotionTodos Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11BA2D22DB020F100253F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2D82DB020F100253F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2E72DB020F300253F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2F12DB020F300253F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11BA2D62DB020F100253F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2E52DB020F300253F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11BA2EF2DB020F300253F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11BA2DD2DB020F100253F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11BA2D92DB020F100253F98 /* NotionTodos Watch App */;
+			targetProxy = B11BA2DC2DB020F100253F98 /* PBXContainerItemProxy */;
+		};
+		B11BA2EB2DB020F300253F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11BA2D92DB020F100253F98 /* NotionTodos Watch App */;
+			targetProxy = B11BA2EA2DB020F300253F98 /* PBXContainerItemProxy */;
+		};
+		B11BA2F52DB020F300253F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11BA2D92DB020F100253F98 /* NotionTodos Watch App */;
+			targetProxy = B11BA2F42DB020F300253F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B11BA2FB2DB020F300253F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B11BA2FC2DB020F300253F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B11BA2FE2DB020F300253F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionTodos;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delianpetrov.NotionTodos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B11BA2FF2DB020F300253F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionTodos;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delianpetrov.NotionTodos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		B11BA3022DB020F300253F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionTodos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delianpetrov.NotionTodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B11BA3032DB020F300253F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionTodos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delianpetrov.NotionTodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11BA3052DB020F300253F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delianpetrov.NotionTodos-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionTodos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionTodos Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B11BA3062DB020F300253F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delianpetrov.NotionTodos-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionTodos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionTodos Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		B11BA3082DB020F300253F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delianpetrov.NotionTodos-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotionTodos Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B11BA3092DB020F300253F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5S55UT5FRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delianpetrov.NotionTodos-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotionTodos Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11BA2D12DB020F100253F98 /* Build configuration list for PBXProject "NotionTodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11BA2FB2DB020F300253F98 /* Debug */,
+				B11BA2FC2DB020F300253F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11BA2FD2DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11BA2FE2DB020F300253F98 /* Debug */,
+				B11BA2FF2DB020F300253F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11BA3012DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11BA3022DB020F300253F98 /* Debug */,
+				B11BA3032DB020F300253F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11BA3042DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11BA3052DB020F300253F98 /* Debug */,
+				B11BA3062DB020F300253F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11BA3072DB020F300253F98 /* Build configuration list for PBXNativeTarget "NotionTodos Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11BA3082DB020F300253F98 /* Debug */,
+				B11BA3092DB020F300253F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11BA2CE2DB020F100253F98 /* Project object */;
+}
