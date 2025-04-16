@@ -1,0 +1,3 @@
+API_KEY = your-secret-key-here
+BASE_URL = https://api.delianpetrov.com
+ENV = development
