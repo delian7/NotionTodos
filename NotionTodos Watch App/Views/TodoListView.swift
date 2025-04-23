@@ -12,14 +12,24 @@ struct TodoListView: View {
                 }
             }
             .navigationTitle("Todos")
-            .toolbar {
-                Button(action: { viewModel.showingAddTodo = true }) {
-                    Image(systemName: "plus")
-                }
+            .refreshable {
+                await viewModel.fetchTodos()
             }
             .sheet(isPresented: $viewModel.showingAddTodo) {
                 AddTodoView(viewModel: viewModel)
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Button(action: { viewModel.showingAddTodo = true }) {
+                        Image(systemName: "plus")
+                            .font(.system(size: 14))
+                    }
+                }
+            }
         }
     }
+}
+
+#Preview {
+    TodoListView()
 }

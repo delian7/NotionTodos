@@ -19,7 +19,7 @@ struct AddTodoView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") { dismiss() }
+                    Button("Cancel") { dismiss() }.font(.system(size: 14))
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Add") {
@@ -27,8 +27,13 @@ struct AddTodoView: View {
                         dismiss()
                     }
                     .disabled(title.isEmpty)
+                    .font(.system(size: 14))
                 }
             }
         }
     }
+}
+
+#Preview {
+    TodoListView()
 }
