@@ -82,15 +82,7 @@ class APIService {
             throw APIError.serverError(statusCode: httpResponse.statusCode)
         }
         
-        do {
-            let todos = try JSONDecoder().decode([Todo].self, from: data)
-            guard let createdTodo = todos.first else {
-                throw APIError.invalidResponse
-            }
-            return createdTodo
-        } catch {
-            throw APIError.decodingError(error)
-        }
+        return todo
     }
     
     func updateTodo(_ todo: Todo) async throws -> Todo {

@@ -1,51 +1,25 @@
-//
-//  Configuration.swift
-//  NotionTodos
-//
-//  Created by Delian Petrov on 4/16/25.
-//
-
 import Foundation
 
-enum Configuration {
-    enum Error: Swift.Error {
-        case missingKey, invalidValue
+class Configuration {
+    private static func loadPlist() -> [String: Any]? {
+        guard let path = Bundle.main.path(forResource: "Config", ofType: "plist"),
+              let data = FileManager.default.contents(atPath: path),
+              let plist = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil),
+              let dictionary = plist as? [String: Any] else {
+            return nil
+        }
+        return dictionary
     }
-
-    static func value<T>(for key: String) throws -> T where T: LosslessStringConvertible {
-        guard let object = Bundle.main.object(forInfoDictionaryKey: key) else {
-            throw Error.missingKey
-        }
-
-        switch object {
-        case let value as T:
-            return value
-        case let string as String:
-            guard let value = T(string) else { fallthrough }
-            return value
-        default:
-            throw Error.invalidValue
-        }
+    
+    static var apiKey: String {
+        return loadPlist()?["API_KEY"] as? String ?? ""
     }
-
-    static var apiKey: String = {
-        guard let apiKey: String = try? value(for: "API_KEY") else {
-            return "test-api-key" // Default test value
-        }
-        return apiKey
-    }()
-
-    static var baseURL: String = {
-        guard let url: String = try? value(for: "BASE_URL") else {
-            return "https://api.test.com" // Default test value
-        }
-        return url
-    }()
-
-    static var environment: String = {
-        guard let env: String = try? value(for: "ENV") else {
-            return "test" // Default test value
-        }
-        return env
-    }()
+    
+    static var baseURL: String {
+        return loadPlist()?["BASE_URL"] as? String ?? ""
+    }
+    
+    static var environment: String {
+        return loadPlist()?["ENVIRONMENT"] as? String ?? "test"
+    }
 }
