@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B11BA2DB2DB020F100253F98 /* NotionTodos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B136439F2DB0248800CEFEC6 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B136439E2DB0247B00CEFEC6 /* Config.xcconfig */; };
+		B13643A12DB0249F00CEFEC6 /* Config.example.xcconfig  in Resources */ = {isa = PBXBuildFile; fileRef = B13643A02DB0249700CEFEC6 /* Config.example.xcconfig  */; };
+		B13643A32DB0252800CEFEC6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B13643A22DB0252300CEFEC6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B11BA2DA2DB020F100253F98 /* NotionTodos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotionTodos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11BA2E92DB020F300253F98 /* NotionTodos Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionTodos Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11BA2F32DB020F300253F98 /* NotionTodos Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionTodos Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B136439E2DB0247B00CEFEC6 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B13643A02DB0249700CEFEC6 /* Config.example.xcconfig  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Config.example.xcconfig "; sourceTree = "<group>"; };
+		B13643A22DB0252300CEFEC6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -101,6 +107,9 @@
 		B11BA2CD2DB020F100253F98 = {
 			isa = PBXGroup;
 			children = (
+				B13643A22DB0252300CEFEC6 /* .gitignore */,
+				B13643A02DB0249700CEFEC6 /* Config.example.xcconfig  */,
+				B136439E2DB0247B00CEFEC6 /* Config.xcconfig */,
 				B11BA2DE2DB020F100253F98 /* NotionTodos Watch App */,
 				B11BA2EC2DB020F300253F98 /* NotionTodos Watch AppTests */,
 				B11BA2F62DB020F300253F98 /* NotionTodos Watch AppUITests */,
@@ -227,6 +236,7 @@
 					};
 					B11BA2E82DB020F300253F98 = {
 						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 						TestTargetID = B11BA2D92DB020F100253F98;
 					};
 					B11BA2F22DB020F300253F98 = {
@@ -269,6 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13643A32DB0252800CEFEC6 /* .gitignore in Resources */,
+				B136439F2DB0248800CEFEC6 /* Config.xcconfig in Resources */,
+				B13643A12DB0249F00CEFEC6 /* Config.example.xcconfig  in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +462,7 @@
 		};
 		B11BA2FE2DB020F300253F98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B136439E2DB0247B00CEFEC6 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +492,7 @@
 		};
 		B11BA2FF2DB020F300253F98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B136439E2DB0247B00CEFEC6 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -541,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5S55UT5FRB;
@@ -550,6 +566,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotionTodos Watch AppTests/Services/NotionTodos Watch AppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionTodos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionTodos Watch App";
@@ -561,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5S55UT5FRB;
@@ -570,6 +589,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotionTodos Watch AppTests/Services/NotionTodos Watch AppTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionTodos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionTodos Watch App";
